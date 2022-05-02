@@ -7,7 +7,7 @@ Project created on April 2022
 bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+bikeshare project analyses bikeshare data
 
 ### Files used
 Include the files used
