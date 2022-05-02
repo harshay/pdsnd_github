@@ -39,7 +39,7 @@ def get_filters():
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#fuction is used for loading source data
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
