@@ -12,7 +12,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 months = ['january', 'february', 'march', 'april', 'may', 'june','all']
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday','all']
 
-
+#fuction is used for getting user input
 def get_filters():
 
     print('Hello! Let\'s explore some US bikeshare data!')
