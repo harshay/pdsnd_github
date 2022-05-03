@@ -12,7 +12,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 months = ['january', 'february', 'march', 'april', 'may', 'june','all']
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday','all']
 
-
+#fuction is used for getting user input
 def get_filters():
 
     print('Hello! Let\'s explore some US bikeshare data!')
@@ -39,7 +39,7 @@ def get_filters():
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#fuction is used for loading source data
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -103,7 +103,7 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+# function calculation status stats
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
